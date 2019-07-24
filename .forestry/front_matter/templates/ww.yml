@@ -1,0 +1,23 @@
+---
+label: ww
+hide_body: false
+display_field: slug
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: tags
+  label: tags
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: banner_image
+  label: banner_image
+- type: text
+  name: sub_heading
+  label: sub_heading
+- type: text
+  name: slug
+  label: slug
