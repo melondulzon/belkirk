@@ -36,8 +36,8 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-upload_dir: ''
-public_path: ''
+upload_dir: ups
+public_path: "/dm"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
