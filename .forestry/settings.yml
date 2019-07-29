@@ -47,6 +47,7 @@ build:
   publish_command: bundle exec jekyll build -d _site
   preview_env:
   - JEKYLL_ENV=staging
+  - HUGO_VERSION=0.56.1
   publish_env:
   - JEKYLL_ENV=production
   preview_output_directory: public
