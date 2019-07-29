@@ -49,10 +49,10 @@ build:
   - JEKYLL_ENV=staging
   publish_env:
   - JEKYLL_ENV=production
-  preview_output_directory: _site
+  preview_output_directory: public
   output_directory: _site
-  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --port 8080 --host 0.0.0.0 -d _site
-  install_dependencies_command: bundle install --path vendor/bundle
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node10
   mount_path: "/srv"
